@@ -6,7 +6,7 @@ public class SnakeGameAndLadderGame {
 
     public static void main(String[] args) {
        
-        int[] snakes = {14, 19, 24, 22}; // poosiciones de las serpientes
+        int[] snakes = {14, 19, 24, 22}; // posiciones de las serpientes
         int[] ladders = {3, 10, 9, 6}; // posiciones de las escaleras
         int[] snakesEnds = {4, 8, 16, 20}; // posiciones finales de las serpientes
         int[] ladderEnds = {11, 12, 18, 17}; // posiciones finales de las escaleras

@@ -14,7 +14,7 @@ class Elemento {
 }
 public class Mochila {
 
-    // Función para resolver el problema de la mochila
+    // Función para resolver el prooblema de la mochila
     public static List<Elemento> resolverMochila(List<Elemento> elementos, int capacidadMaxima) {
         int n = elementos.size(); // Cantidad de elementos
         int[][] dp = new int[n + 1][capacidadMaxima + 1]; // Matriz para almacenar los resultados parciales
