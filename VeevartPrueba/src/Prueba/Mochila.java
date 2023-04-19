@@ -31,7 +31,7 @@ public class Mochila {
                     dp[i][j] = Math.max(elementos.get(i - 1).valor + dp[i - 1][j - elementos.get(i - 1).peso], dp[i - 1][j]);
                 } else {
                     // Si el peso del elemento actual es mayor a la capacidad actual
-                    // El valor óptimo es el mismo que el valor obtenido hasta el elemento anterior
+                    // El valor optimo es el mismo que el valor obtenido hasta el elemento anterior
                     dp[i][j] = dp[i - 1][j];
                 }
             }
